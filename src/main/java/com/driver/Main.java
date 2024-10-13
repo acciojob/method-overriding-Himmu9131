@@ -6,7 +6,7 @@ public class Main {
       System.out.println( b.meth());
 
 }
-    static class B extends A{
+    public static class B extends A{
         public String meth(){
             return "Method is overridden in Extended class B";
         }
